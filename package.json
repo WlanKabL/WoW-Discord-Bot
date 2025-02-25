@@ -1,0 +1,34 @@
+{
+  "name": "wow-discord-bot",
+  "version": "1.0.0",
+  "description": "Damit der **Discord-Bot** die **Raid-, Dungeon- & Performance-Daten** eines Gildenmitglieds auswerten kann, muss jedes Mitglied ein paar einfache Schritte durchführen.",
+  "main": "index.js",
+  "scripts": {
+        "dev": "ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WlanKabL/WoW-Discord-Bot.git"
+  },
+  "author": "WlanKabL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WlanKabL/WoW-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/WlanKabL/WoW-Discord-Bot#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "@types/ws": "^8.5.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
